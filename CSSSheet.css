@@ -1,0 +1,16 @@
+/*Here's a comment to make my CSS easier to read. Also I have CSS on line __ of my index*/
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: #444444;
+}
+
+h5 {
+    color: hsl(180, 50%, 50%);
+}
+
+h5 {
+    color: gray;
+}
