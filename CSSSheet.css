@@ -1,10 +1,13 @@
 @font-face {
-    font-family: 'Arkonim';
-    src: url('Akronim.ttf') format('ttf');
+    font-family: "Arkonim";
+    src: url("Akronim.ttf") format("ttf");
+}
+
+html {
+    font-family: "Arkonim";
 }
 
 * {
-    font-family: Arkonim;
     text-transform: none;
 }
 
