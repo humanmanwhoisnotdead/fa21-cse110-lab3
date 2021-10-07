@@ -3,9 +3,8 @@
     src: url('Akronim.ttf') format('ttf');
 }
 
-* {
+html {
     font-family: Arkonim;
-    text-transform: none;
 }
 
 /*Here's a comment to make my CSS easier to read. Also I have CSS on line __ of my index*/
@@ -112,4 +111,8 @@ ul.name {
     ul > il {
         text-decoration: line-through;
     }
+}
+
+* {
+    text-transform: none;
 }
