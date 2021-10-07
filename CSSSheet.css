@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Arkonim';
+    src: url('Akronim.ttf') format('ttf');
+}
+
+* {
+    font-family: Arkonim;
+    text-transform: none;
+}
+
 /*Here's a comment to make my CSS easier to read. Also I have CSS on line __ of my index*/
 h1 {
     position: absolute;
@@ -53,10 +63,53 @@ b {
     text-align: center;
 }
 
+p {
+    color: gray;
+    text-align: center;
+}
+
 :any-link:hover {
     color: rgb(185, 185, 28);
 }
 
 fieldset:active {
     color: cadetblue;
+}
+
+.name, h2 {
+    font-size: 1.25rem;
+}
+
+#criminality {
+    color: rgb(206, 10, 10);
+}
+
+footer[li] {
+    text-transform: lowercase;
+}
+
+footer li {
+    text-shadow: 2px 2px rgb(13, 175, 216);
+}
+
+ul > il {
+    text-decoration: underline;
+}
+
+input ~ p {
+    text-decoration: overline;
+}
+
+input + p {
+    color: thistle;
+}
+
+ul.name {
+    color: tomato;
+}
+
+@media (min-width: 500px) {
+    ul > il {
+        text-decoration: line-through;
+    }
 }
